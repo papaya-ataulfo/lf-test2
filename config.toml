@@ -1,0 +1,65 @@
+baseURL = "http://livingfluently.com/"
+languageCode = "en-us"
+title = "yeh"
+theme = "hugo-theme-cactus"
+
+[params]
+
+  colortheme = "white"
+
+  description = "I can get with complexity, but all this fucking coding shit is driving me bonkers."
+  
+  mainSection = "posts"
+  
+  showAllPostsOnHomePage = false
+  
+  postsOnHomePage = 7
+
+  tagsOverview = false
+
+  showProjectsList = true
+
+  projectsUrl = "https://github.com/monkeyWzr"
+
+  copyright = "Zeran Wu"
+  
+  googleAnalytics = "UA-123-45"
+  
+  rss = true
+
+[params.comments]
+    enabled = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writing"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+
+[[params.social]]
+  name = "discord"
+  link = "https://github.com/monkeyWzr"
+
+[[params.social]]
+  name = "email"
+  link = "monkeywzr@gmail.com" # no need for "mailto:" at the start
+
+[[params.social]]
+  name = "twitter"
+  link = "https://www.linkedin.com/in/monkeywzr/"
+
